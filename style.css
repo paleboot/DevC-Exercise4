@@ -1,5 +1,29 @@
-.carousel-inner img{
-    width: auto;
-    height: 500px;
-    max-height: 500px;
+body{
+    background-color: #f5f5f5;
+}
+.pageHeader{
+    font-family: 'BenchNine', sans-serif;
+    margin: auto;
+}
+.pageButton{
+    font-family: 'BenchNine', sans-serif; 
+    margin: auto;
+}
+#indexButton{
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    height: 100%;
+    color: black;
+}
+#indexButton .btn{
+    font-size: 100px;
+}
+.carousel-inner img {
+    margin:auto;
+}
+.carousel{
+    max-height: 300px;
+    max-width: 400px;
+    overflow: hidden;
+    margin: auto;
 }
